@@ -55,7 +55,7 @@ class Employee extends Component {
         console.log(this.state.employees);
         const employeecb = this.state.employees;
         const fileName = this.state.title;
-        API.saveCSVfile({ employecb: employeecb, fileName: fileName })
+        API.saveCSVfile({ employecb: employeecb, fileName: fileName });
 
     };
 
